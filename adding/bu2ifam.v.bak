@@ -67,5 +67,5 @@ not(t[21],A[21]);
 not(t[22],A[22]);
 not(t[23],A[23]);
 not(t[24],A[24]);
-inc1 increase1(t[24:0],B,1'b1);
+inc1(t[24:0],B,1'b1);
 endmodule
