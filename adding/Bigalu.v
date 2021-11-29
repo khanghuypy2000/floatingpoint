@@ -10,12 +10,12 @@ or(cout,m3,m2);
 endmodule
 
 module Bigalu(A, B, C, S, cout2); 
-input[23:0] A,B; 
+input[24:0] A,B; 
 output[24:0] S;
 input C;
 output cout2;
-wire[22:0] w;
-wire[23:0] t;
+wire[23:0] w;
+wire[24:0] t;
 xor(t[0], B[0], C);
 xor(t[1], B[1], C);
 xor(t[2], B[2], C);
@@ -40,6 +40,7 @@ xor(t[20], B[20], C);
 xor(t[21], B[21], C); 
 xor(t[22], B[22], C);
 xor(t[23], B[23], C);
+xor(t[24], B[24], C);
 fadder fadder1(A[0], t[0], C, S[0],w[0]);
 fadder fadder2(A[1], t[1], w[0], S[1],w[1]);
 fadder fadder3(A[2], t[2], w[1], S[2],w[2]);
@@ -63,6 +64,6 @@ fadder fadder20(A[19], t[19], w[18], S[19],w[19]);
 fadder fadder21(A[20], t[20], w[19], S[20],w[20]);
 fadder fadder22(A[21], t[21], w[20], S[21],w[21]);
 fadder fadder23(A[22], t[22], w[21], S[22],w[22]);
-fadder fadder24(A[23], t[23], w[22], S[23],cout2);
-assign S[24] = cout2;
+fadder fadder24(A[23], t[23], w[22], S[23],w[23]);
+fadder fadder25(A[24], t[24], w[23], S[24],cout2);
 endmodule

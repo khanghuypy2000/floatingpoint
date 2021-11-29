@@ -1,0 +1,153 @@
+D:/git_floatingpoint/floatingpoint/adding/Detectb1.v {1 {vlog -work work D:/git_floatingpoint/floatingpoint/adding/Detectb1.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module Det1
+-- Compiling module Detectb1
+
+Top level modules:
+	Detectb1
+
+} {} {}} D:/git_floatingpoint/floatingpoint/adding/Shiftright.v {1 {vlog -work work D:/git_floatingpoint/floatingpoint/adding/Shiftright.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module Shiftright
+
+Top level modules:
+	Shiftright
+
+} {} {}} D:/git_floatingpoint/floatingpoint/adding/normalizeExpo.v {1 {vlog -work work D:/git_floatingpoint/floatingpoint/adding/normalizeExpo.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module fadder
+-- Compiling module add9b
+-- Compiling module normalizeExpo
+
+Top level modules:
+	normalizeExpo
+
+} {} {}} D:/git_floatingpoint/floatingpoint/adding/ghep1.v {1 {vlog -work work D:/git_floatingpoint/floatingpoint/adding/ghep1.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module ghep1
+
+Top level modules:
+	ghep1
+
+} {} {}} D:/git_floatingpoint/floatingpoint/adding/normalizeFrac.v {1 {vlog -work work D:/git_floatingpoint/floatingpoint/adding/normalizeFrac.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module normalizeFrac
+
+Top level modules:
+	normalizeFrac
+
+} {} {}} D:/git_floatingpoint/floatingpoint/adding/mux2_23b.v {1 {vlog -work work D:/git_floatingpoint/floatingpoint/adding/mux2_23b.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module mux2_23b
+
+Top level modules:
+	mux2_23b
+
+} {} {}} D:/Div_modelsim/checkinf.v {1 {vlog -work work D:/Div_modelsim/checkinf.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module checkinf
+
+Top level modules:
+	checkinf
+
+} {} {}} D:/git_floatingpoint/floatingpoint/adding/SmallAlu.v {1 {vlog -work work D:/git_floatingpoint/floatingpoint/adding/SmallAlu.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module fadder
+-- Compiling module mux2
+-- Compiling module mux2_8b
+-- Compiling module add8b
+-- Compiling module bu2
+-- Compiling module SmallAlu
+
+Top level modules:
+	SmallAlu
+
+} {} {}} D:/git_floatingpoint/floatingpoint/adding/Bigalu.v {1 {vlog -work work D:/git_floatingpoint/floatingpoint/adding/Bigalu.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module fadder
+-- Compiling module Bigalu
+
+Top level modules:
+	Bigalu
+
+} {} {}} D:/Floatingpoint_modelsim/Xacdinhdau.v {1 {vlog -work work D:/Floatingpoint_modelsim/Xacdinhdau.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module Xacdinhdau
+
+Top level modules:
+	Xacdinhdau
+
+} {} {}} D:/FloatingPoint/Rounding/Rounding.v {1 {vlog -work work D:/FloatingPoint/Rounding/Rounding.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module fadder
+-- Compiling module add8b
+-- Compiling module add5b
+-- Compiling module Rounding
+
+Top level modules:
+	Rounding
+
+} {} {}} D:/git_floatingpoint/floatingpoint/adding/Swap_ab.v {1 {vlog -work work D:/git_floatingpoint/floatingpoint/adding/Swap_ab.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module Swap_ab
+
+Top level modules:
+	Swap_ab
+
+} {} {}} D:/Div_modelsim/check0.v {1 {vlog -work work D:/Div_modelsim/check0.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module check0
+
+Top level modules:
+	check0
+
+} {} {}} D:/git_floatingpoint/floatingpoint/adding/bu2ifam.v {1 {vlog -work work D:/git_floatingpoint/floatingpoint/adding/bu2ifam.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module hadder
+-- Compiling module inc1
+-- Compiling module bu2ifam
+
+Top level modules:
+	bu2ifam
+
+} {} {}} D:/Floatingpoint_modelsim/main.v {1 {vlog -work work {D:\Floatingpoint_modelsim\main.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module main
+
+Top level modules:
+	main
+
+} {} {}} D:/Floatingpoint_modelsim/mux2_8b.v {1 {vlog -work work D:/Floatingpoint_modelsim/mux2_8b.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module mux2_8b
+
+Top level modules:
+	mux2_8b
+
+} {} {}} D:/Floatingpoint_modelsim/tb.v {1 {vlog -work work D:/Floatingpoint_modelsim/tb.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module tb
+
+Top level modules:
+	tb
+
+} {} {}} D:/git_floatingpoint/floatingpoint/adding/control.v {1 {vlog -work work D:/git_floatingpoint/floatingpoint/adding/control.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module control
+
+Top level modules:
+	control
+
+} {} {}} D:/git_floatingpoint/floatingpoint/adding/normalize.v {1 {vlog -work work D:/git_floatingpoint/floatingpoint/adding/normalize.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module Det1
+-- Compiling module Detectb1
+-- Compiling module log2detc
+-- Compiling module fadder
+-- Compiling module add5b
+-- Compiling module normalize
+
+Top level modules:
+	normalize
+
+} {} {}}

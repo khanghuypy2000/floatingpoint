@@ -1,7 +1,7 @@
 module main(a,b,sel,s,overflow,underflow);
 input[31:0] a,b;
 input sel;
-output reg[31:0] s;
+output[31:0] s;
 output reg overflow,underflow;
 wire[7:0] exo;
 //wire siga, sigb;
