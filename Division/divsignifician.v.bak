@@ -113,14 +113,16 @@ begin
 end
 endmodule
 
-module divsignifician(X, Y, Z);
+module divsignifician(X, Y, T, Z);
 input[23:0] X, Y;
+output[47:0] T;
 output[23:0] Z;
 wire[23:0] c;
 wire[23:0] n23;
 wire[23:0] r23;
 wire[24:0] n22,n21,n20,n19,n18,n17,n16,n15,n14,n13,n12,n11,n10,n9,n8,n7,n6,n5,n4,n3,n2,n1,n0;
 wire[24:0] r22,r21,r20,r19,r18,r17,r16,r15,r14,r13,r12,r11,r10,r9,r8,r7,r6,r5,r4,r3,r2,r1,r0;
+assign T = {X,23'b0};
 addsub24b Tru1(X, Y, 1'b1, n23, c[23]); 
 mux2_1b u1(1'b1,1'b0,c[23],Z[23]);   //X>Y--> ket qua tai bit 23 cua thuong bang 1, nguoc lai bang 0
 mux2_24b v1(n23,X,c[23],r23);      // X>Y --> so du bang hieu X-Y, nguoc lai so du bang X

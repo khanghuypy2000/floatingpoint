@@ -1,0 +1,91 @@
+D:/Div_modelsim/div_tb.v {1 {vlog -work work D:/Div_modelsim/div_tb.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module div_tb
+
+Top level modules:
+	div_tb
+
+} {} {}} D:/Div_modelsim/normalizeFrac.v {1 {vlog -work work D:/Div_modelsim/normalizeFrac.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module normalizeFrac
+
+Top level modules:
+	normalizeFrac
+
+} {} {}} D:/Div_modelsim/normalizeExpo.v {1 {vlog -work work D:/Div_modelsim/normalizeExpo.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module fadder
+-- Compiling module add9b
+-- Compiling module normalizeExpo
+
+Top level modules:
+	normalizeExpo
+
+} {} {}} D:/Div_modelsim/normalize.v {1 {vlog -work work D:/Div_modelsim/normalize.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module Det1
+-- Compiling module Detectb1
+-- Compiling module log2detc
+-- Compiling module fadder
+-- Compiling module add5b
+-- Compiling module normalize
+
+Top level modules:
+	normalize
+
+} {} {}} D:/Div_modelsim/sub_exp.v {1 {vlog -work work D:/Div_modelsim/sub_exp.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module fadder
+-- Compiling module add9b
+-- Compiling module bu2
+-- Compiling module mux2_9b
+-- Compiling module sub_exp
+
+Top level modules:
+	sub_exp
+
+} {} {}} D:/Div_modelsim/Rounding.v {1 {vlog -work work D:/Div_modelsim/Rounding.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module fadder
+-- Compiling module add8b
+-- Compiling module add5b
+-- Compiling module Rounding
+
+Top level modules:
+	Rounding
+
+} {} {}} D:/Div_modelsim/check0.v {1 {vlog -work work D:/Div_modelsim/check0.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module check0
+
+Top level modules:
+	check0
+
+} {} {}} D:/Div_modelsim/main_div.v {1 {vlog -work work D:/Div_modelsim/main_div.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module main_div
+
+Top level modules:
+	main_div
+
+} {} {}} D:/Div_modelsim/divsignifician.v {1 {vlog -work work D:/Div_modelsim/divsignifician.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module fadder
+-- Compiling module addsub24b
+-- Compiling module addsub25b
+-- Compiling module mux2_1b
+-- Compiling module mux2_24b
+-- Compiling module mux2_25b
+-- Compiling module divsignifician
+
+Top level modules:
+	divsignifician
+
+} {} {}} D:/Div_modelsim/checkinf.v {1 {vlog -work work {D:\Div_modelsim\checkinf.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module checkinf
+
+Top level modules:
+	checkinf
+
+} {} {}}
