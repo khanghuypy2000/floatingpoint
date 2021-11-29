@@ -1,7 +1,7 @@
 module checkinf(a,b,f);
 input[7:0] a;
 input[22:0] b;
-output[1:0] f;
+output f[1:0];
 wire[7:0] n;
 wire[22:0] m;
 xnor(n[0],a[0],1'b1);

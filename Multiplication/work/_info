@@ -1,0 +1,429 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\Floatingpoint_modelsim
+vadd48b
+Z1 !s100 6=0H7IEmnX1EUJFJU3iST1
+Z2 I^]<3bl07C5FR2S`9RLWi13
+Z3 V@==C20Pf=:ePkV_EBMk811
+Z4 dD:\Mul_modelsim
+Z5 w1638155311
+Z6 8D:/git_floatingpoint/floatingpoint/Multiplication/add_mul.v
+Z7 FD:/git_floatingpoint/floatingpoint/Multiplication/add_mul.v
+L0 97
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s108 1638169265.160000
+Z10 !s107 D:/git_floatingpoint/floatingpoint/Multiplication/add_mul.v|
+Z11 !s90 -reportprogress|300|-work|work|D:/git_floatingpoint/floatingpoint/Multiplication/add_mul.v|
+Z12 o-work work -O0
+!i10b 1
+!s85 0
+!s101 -O0
+vadd49b
+Z13 !s100 ^hHD4[[5UJPXPYjfzJ[bK1
+Z14 IZ]3mBC;@AFQT<zL1?[AYJ2
+Z15 V^m3_B^nGia3NCgdUP48iU0
+R4
+R5
+R6
+R7
+Z16 L0 112
+R8
+r1
+31
+R9
+R10
+R11
+R12
+!i10b 1
+!s85 0
+!s101 -O0
+vadd5b
+Z17 I]e=7A=FaVf^0H3F=_X[cW2
+Z18 V5kDJN4b8k>jaSFNhWzzY;3
+R4
+Z19 w1638168621
+Z20 8D:/git_floatingpoint/floatingpoint/Multiplication/Rounding.v
+Z21 FD:/git_floatingpoint/floatingpoint/Multiplication/Rounding.v
+L0 28
+R8
+r1
+31
+Z22 !s108 1638169267.234000
+Z23 !s107 D:/git_floatingpoint/floatingpoint/Multiplication/Rounding.v|
+Z24 !s90 -reportprogress|300|-work|work|D:/git_floatingpoint/floatingpoint/Multiplication/Rounding.v|
+R12
+Z25 !s100 iGYg9Pg07c5>3UgMhUSRF2
+!i10b 1
+!s85 0
+!s101 -O0
+vadd8b
+Z26 I25VCBaiSM1jBU=4NKJlKN3
+Z27 VkI6z]FgQ>Ph`F^0YK9PVV1
+R4
+R19
+R20
+R21
+L0 12
+R8
+r1
+31
+R22
+R23
+R24
+R12
+Z28 !s100 Y]B>RDNbfFo[G^NEJa2SX0
+!i10b 1
+!s85 0
+!s101 -O0
+vadd9b
+Z29 IFZ>zh[]AVLLi8Jg5cMl[03
+Z30 VB^4KYn5jiC>]S=zdzDCF`2
+R4
+Z31 w1638167430
+Z32 8D:/git_floatingpoint/floatingpoint/Multiplication/normalizeExpo.v
+Z33 FD:/git_floatingpoint/floatingpoint/Multiplication/normalizeExpo.v
+L0 12
+R8
+r1
+31
+Z34 !s108 1638169266.866000
+Z35 !s107 D:/git_floatingpoint/floatingpoint/Multiplication/normalizeExpo.v|
+Z36 !s90 -reportprogress|300|-work|work|D:/git_floatingpoint/floatingpoint/Multiplication/normalizeExpo.v|
+R12
+Z37 !s100 adXBhbBA2bQjkGOJKfd]<0
+!i10b 1
+!s85 0
+!s101 -O0
+vadd_exp
+Z38 !s100 fH6Km0of5BmbKTLWI]VZC2
+Z39 I>iWB6If@ka?WWMjN2OS=i0
+Z40 VElM3d]mPTbgV^gP1WmWSL0
+R4
+Z41 w1638168440
+Z42 8D:/Mul_modelsim/add_exp.v
+Z43 FD:/Mul_modelsim/add_exp.v
+L0 12
+R8
+r1
+31
+Z44 !s108 1638169267.656000
+Z45 !s107 D:/Mul_modelsim/add_exp.v|
+Z46 !s90 -reportprogress|300|-work|work|D:/Mul_modelsim/add_exp.v|
+R12
+!i10b 1
+!s85 0
+!s101 -O0
+vadd_mul
+Z47 !s100 ^aLiKS]U:]n<Sn2RMD_=P1
+Z48 ITGRZY4gm;_PeaZ7GP0f8<2
+Z49 VW;0jCdoK00bZ>4U;;iZ^81
+R4
+R5
+R6
+R7
+Z50 L0 127
+R8
+r1
+31
+R9
+R10
+R11
+R12
+!i10b 1
+!s85 0
+!s101 -O0
+vcheck0
+Z51 !s100 Y:=GTcl94D:K;TN5`AgLm2
+Z52 I0>AM]mZhlMF_TCzic41g22
+Z53 V^W;2PL^H29<2DPbGB=km;3
+R4
+Z54 w1637768975
+Z55 8D:/git_floatingpoint/floatingpoint/Multiplication/check0.v
+Z56 FD:/git_floatingpoint/floatingpoint/Multiplication/check0.v
+L0 1
+R8
+r1
+31
+Z57 !s90 -reportprogress|300|-work|work|D:/git_floatingpoint/floatingpoint/Multiplication/check0.v|
+R12
+Z58 !s108 1638169266.173000
+Z59 !s107 D:/git_floatingpoint/floatingpoint/Multiplication/check0.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vcheckinf
+Z60 !s100 Kc1P=7g6<H:2F7G9]WNB?1
+Z61 IFaG<>Hj?9nB9b<cFP]9^S0
+Z62 VKbKCAiM@W<6n[j2=Wd]PL2
+R4
+Z63 w1638167537
+Z64 8D:/git_floatingpoint/floatingpoint/Multiplication/checkinf.v
+Z65 FD:/git_floatingpoint/floatingpoint/Multiplication/checkinf.v
+L0 1
+R8
+r1
+31
+Z66 !s90 -reportprogress|300|-work|work|D:/git_floatingpoint/floatingpoint/Multiplication/checkinf.v|
+R12
+Z67 !s108 1638169266.291000
+Z68 !s107 D:/git_floatingpoint/floatingpoint/Multiplication/checkinf.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vDet1
+Z69 !s100 _QcXWaTBe1:JkfKiF_FX^2
+Z70 I^gV@7Q68_oaRIe@KX5ILj0
+Z71 V9a^8XNdZCXcXD>?bVUVdR1
+R4
+Z72 w1635874310
+Z73 8D:/git_floatingpoint/floatingpoint/Multiplication/normalize.v
+Z74 FD:/git_floatingpoint/floatingpoint/Multiplication/normalize.v
+L0 1
+R8
+r1
+31
+Z75 !s108 1638169266.404000
+Z76 !s107 D:/git_floatingpoint/floatingpoint/Multiplication/normalize.v|
+Z77 !s90 -reportprogress|300|-work|work|D:/git_floatingpoint/floatingpoint/Multiplication/normalize.v|
+R12
+Z78 n@det1
+!i10b 1
+!s85 0
+!s101 -O0
+vDetectb1
+Z79 !s100 PFe^^`QP=NLDKbi?A;^S;1
+Z80 I@G3gAURA`Y:HooAY2V6L[1
+Z81 VL>cE`]eSV:8Ji<LK`o5F32
+R4
+R72
+R73
+R74
+L0 10
+R8
+r1
+31
+R75
+R76
+R77
+R12
+Z82 n@detectb1
+!i10b 1
+!s85 0
+!s101 -O0
+vfadder
+Z83 I2IgiX:]LIEWDo`Qb]2MJS1
+Z84 VoT7WQ^YZIQio4Fl4PF6E_3
+R4
+R41
+R42
+R43
+L0 1
+R8
+r1
+31
+R44
+R45
+R46
+R12
+Z85 !s100 LnOR8_2I?Ue_oHU9Ph]H_1
+!i10b 1
+!s85 0
+!s101 -O0
+vlog2detc
+Z86 !s100 >3ok<>WSCFATWkF47==062
+Z87 IRB:^5O1NOZTZDQ_[^6nEN1
+Z88 V0YUV__@<N2kh[JgDC5bd82
+R4
+R72
+R73
+R74
+L0 41
+R8
+r1
+31
+R75
+R76
+R77
+R12
+!i10b 1
+!s85 0
+!s101 -O0
+vmul_main
+!i10b 1
+!s100 @AeTl2bZRoC[K3]6B;_M^1
+IR90Ao5JFKBA`k[3Qa7NFf3
+Z89 V[CJIg=LMIQJRWhUEP4:Q>0
+R4
+w1638175219
+Z90 8D:/Mul_modelsim/main_mul.v
+Z91 FD:/Mul_modelsim/main_mul.v
+L0 1
+R8
+r1
+!s85 0
+31
+!s108 1638175227.710000
+!s107 D:/Mul_modelsim/main_mul.v|
+Z92 !s90 -reportprogress|300|-work|work|D:/Mul_modelsim/main_mul.v|
+!s101 -O0
+R12
+vmul_tb
+Z93 ICZ2@>4I2la_=ZFgBJZ5ak1
+Z94 VkYU7]YRWd<6[Q^?@RYhdZ3
+R4
+Z95 w1638172891
+Z96 8D:/Mul_modelsim/mul_tb.v
+Z97 FD:/Mul_modelsim/mul_tb.v
+L0 1
+R8
+r1
+31
+Z98 !s90 -reportprogress|300|-work|work|D:/Mul_modelsim/mul_tb.v|
+R12
+Z99 !s100 7=8GK3gXo`?fV@f]VcYT83
+Z100 !s108 1638172904.373000
+Z101 !s107 D:/Mul_modelsim/mul_tb.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vmulab
+Z102 !s100 92EIQFTUYCOhmRmXU@O]A1
+Z103 IiIA`f[od`4NZO>>DBYQ9g1
+Z104 V7DlcL6TbQTRHQVXI4RF601
+R4
+R5
+R6
+R7
+L0 1
+R8
+r1
+31
+R9
+R10
+R11
+R12
+!i10b 1
+!s85 0
+!s101 -O0
+vnormalize
+Z105 !s100 mO`zaLLFk_jJk_^H67Q2_2
+Z106 ICJXc3fcj_I4h4diIFOhYg1
+Z107 VD8E@[ICkO?gHlm27:G6LP2
+R4
+R72
+R73
+R74
+L0 81
+R8
+r1
+31
+R75
+R76
+R77
+R12
+!i10b 1
+!s85 0
+!s101 -O0
+vnormalizeExpo
+Z108 !s100 :JW7i89PC0mmf07iRzPQZ0
+Z109 IzUYgYkNGzc]QC2znW;D=g1
+Z110 Vfo]`CfMXlHzodJ>7f1iGD3
+R4
+R31
+R32
+R33
+L0 39
+R8
+r1
+31
+R34
+R35
+R36
+R12
+Z111 nnormalize@expo
+!i10b 1
+!s85 0
+!s101 -O0
+vnormalizeFrac
+Z112 !s100 N1ZdZa=9UE8YB<2?4I7AJ3
+Z113 I^e2_`@hVdkJ5h^ifPBRM:3
+Z114 VPUcllS2BhBXTaIgRLKaXk3
+R4
+Z115 w1635936129
+Z116 8D:/git_floatingpoint/floatingpoint/Multiplication/normalizeFrac.v
+Z117 FD:/git_floatingpoint/floatingpoint/Multiplication/normalizeFrac.v
+L0 1
+R8
+r1
+31
+Z118 !s90 -reportprogress|300|-work|work|D:/git_floatingpoint/floatingpoint/Multiplication/normalizeFrac.v|
+R12
+Z119 nnormalize@frac
+Z120 !s108 1638169267.145000
+Z121 !s107 D:/git_floatingpoint/floatingpoint/Multiplication/normalizeFrac.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vRounding
+Z122 !s100 iG]dkQGnI]iNeU8UoBoGZ2
+Z123 Ief8:fU9<1m9Zi4S:V=@mG2
+Z124 VZFmTN=6KY8L8?H]U<@jfZ0
+R4
+R19
+R20
+R21
+L0 41
+R8
+r1
+31
+R22
+R23
+R24
+R12
+Z125 n@rounding
+!i10b 1
+!s85 0
+!s101 -O0
+vShiftleft48b
+Z126 !s100 TReDQNOdzhDYILQdlhQ6b2
+Z127 I`<oIibV86HO7C0`nl:nT70
+Z128 V:]Rm[`6:RSZ17LOXQU30_1
+R4
+R5
+R6
+R7
+L0 33
+R8
+r1
+31
+R9
+R10
+R11
+R12
+Z129 n@shiftleft48b
+!i10b 1
+!s85 0
+!s101 -O0
+vtb
+Z130 IESB[Ve^cSFo4]@H;H57e51
+Z131 VmkT`Ngm4P>;E:DOH`7m132
+R4
+Z132 w1638168108
+R96
+R97
+L0 1
+R8
+r1
+31
+R12
+Z133 !s100 7b0fmQPnVm4o?R6jYSCIn3
+Z134 !s108 1638168111.594000
+R101
+R98
+!i10b 1
+!s85 0
+!s101 -O0

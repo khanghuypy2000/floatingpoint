@@ -109,24 +109,9 @@ add8b add48b6(X[47:40],Y[47:40],n[4],S[47:40],Co);
 assign S[48] = Co;
 endmodule
 
-module add49b(X,Y,C,S);  // bo cong 48bit
-input[48:0] X,Y;
-input C;
-output[48:0] S;
-wire Co;
-wire[5:0] n;
-add8b add48b1(X[7:0],Y[7:0],C,S[7:0],n[0]);
-add8b add48b2(X[15:8],Y[15:8],n[0],S[15:8],n[1]);
-add8b add48b3(X[23:16],Y[23:16],n[1],S[23:16],n[2]);
-add8b add48b4(X[31:24],Y[31:24],n[2],S[31:24],n[3]);
-add8b add48b5(X[39:32],Y[39:32],n[3],S[39:32],n[4]);
-add8b add48b6(X[47:40],Y[47:40],n[4],S[47:40],n[5]);
-fadder fadder8(X[48], Y[48], n[5], S[48],Co);
-endmodule
-
 module add_mul(A,B,M);
 input[23:0] A,B;
-output[48:0] M;
+output[47:0] M;
 wire [47:0] z0,z1,z2,z3,z4,z5,z6,z7,z8,z9,z10,z11,z12,z13,z14,z15,z16,z17,z18,z19,z20,z21,z22,z23,z24;
 wire [47:0] t1,t2,t3,t4,t5,t6,t7,t8,t9,t10,t11,t12,t13,t14,t15,t16,t17,t18,t19,t20,t21,t22,t23;
 wire [48:0] h1,h2,h3,h4,h5,h6,h7,h8,h9,h10,h11,h12,h13,h14,h15,h16,h17,h18,h19,h20,h21,h22,h23;
@@ -201,5 +186,6 @@ add48b cong48b19(h18[47:0],t19,1'b0,h19);
 add48b cong48b20(h19[47:0],t20,1'b0,h20);
 add48b cong48b21(h20[47:0],t21,1'b0,h21);
 add48b cong48b22(h21[47:0],t22,1'b0,h22);
-add49b cong48b23(h22[48:0],{1'b0,t23},1'b0,M);
+add48b cong48b23(h22[47:0],t23,1'b0,M);
+//assign M = h23[48:25];
 endmodule

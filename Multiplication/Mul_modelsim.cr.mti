@@ -1,0 +1,88 @@
+D:/Mul_modelsim/add_exp.v {1 {vlog -work work D:/Mul_modelsim/add_exp.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module fadder
+-- Compiling module add_exp
+
+Top level modules:
+	add_exp
+
+} {} {}} D:/git_floatingpoint/floatingpoint/Multiplication/normalizeFrac.v {1 {vlog -work work D:/git_floatingpoint/floatingpoint/Multiplication/normalizeFrac.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module normalizeFrac
+
+Top level modules:
+	normalizeFrac
+
+} {} {}} D:/git_floatingpoint/floatingpoint/Multiplication/normalizeExpo.v {1 {vlog -work work D:/git_floatingpoint/floatingpoint/Multiplication/normalizeExpo.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module fadder
+-- Compiling module add9b
+-- Compiling module normalizeExpo
+
+Top level modules:
+	normalizeExpo
+
+} {} {}} D:/git_floatingpoint/floatingpoint/Multiplication/normalize.v {1 {vlog -work work D:/git_floatingpoint/floatingpoint/Multiplication/normalize.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module Det1
+-- Compiling module Detectb1
+-- Compiling module log2detc
+-- Compiling module fadder
+-- Compiling module add5b
+-- Compiling module normalize
+
+Top level modules:
+	normalize
+
+} {} {}} D:/Mul_modelsim/main_mul.v {1 {vlog -work work D:/Mul_modelsim/main_mul.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module mul_main
+
+Top level modules:
+	mul_main
+
+} {} {}} D:/git_floatingpoint/floatingpoint/Multiplication/Rounding.v {1 {vlog -work work D:/git_floatingpoint/floatingpoint/Multiplication/Rounding.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module fadder
+-- Compiling module add8b
+-- Compiling module add5b
+-- Compiling module Rounding
+
+Top level modules:
+	Rounding
+
+} {} {}} D:/git_floatingpoint/floatingpoint/Multiplication/check0.v {1 {vlog -work work D:/git_floatingpoint/floatingpoint/Multiplication/check0.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module check0
+
+Top level modules:
+	check0
+
+} {} {}} D:/git_floatingpoint/floatingpoint/Multiplication/add_mul.v {1 {vlog -work work D:/git_floatingpoint/floatingpoint/Multiplication/add_mul.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module mulab
+-- Compiling module Shiftleft48b
+-- Compiling module fadder
+-- Compiling module add8b
+-- Compiling module add48b
+-- Compiling module add49b
+-- Compiling module add_mul
+
+Top level modules:
+	add_mul
+
+} {} {}} D:/Mul_modelsim/mul_tb.v {1 {vlog -work work D:/Mul_modelsim/mul_tb.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module mul_tb
+
+Top level modules:
+	mul_tb
+
+} {} {}} D:/git_floatingpoint/floatingpoint/Multiplication/checkinf.v {1 {vlog -work work D:/git_floatingpoint/floatingpoint/Multiplication/checkinf.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module checkinf
+
+Top level modules:
+	checkinf
+
+} {} {}}

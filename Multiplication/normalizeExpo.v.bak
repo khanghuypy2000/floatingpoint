@@ -33,7 +33,7 @@ fadder fadder5(a2[4], t[4], w[3], s2[4],w[4]);
 fadder fadder6(a2[5], t[5], w[4], s2[5],w[5]);
 fadder fadder7(a2[6], t[6], w[5], s2[6],w[6]);   
 fadder fadder8(a2[7], t[7], w[6], s2[7],w[7]);
-fadder fadder9(a2[8], t[8], w[7], s2[8],cout2);
+fadder fadder8(a2[8], t[8], w[7], s2[8],cout2);
 endmodule
 
 module normalizeExpo(num,expo,newexp);   //bộ chuẩn hóa 8 bit mũ số (Exponent)
