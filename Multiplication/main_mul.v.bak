@@ -21,7 +21,7 @@ checkinf ktinf(a[30:23],a[22:0],c2);
 check0 kt0_2(b[30:23],c3);
 checkinf ktinf_2(b[30:23],b[22:0],c4);
 xor(s1,a[31],b[31]);
-always @(c1 or c2 or c3 or c4 or s1)
+always @(c1 or c2 or c3 or c4 or s1 or expo_r or dinhtri_r)
 begin
 case({c1,c2,c3,c4}) 
   7'b100000: begin m = 31'b0; end
@@ -30,6 +30,9 @@ case({c1,c2,c3,c4})
   7'b001000: begin m = 31'bx; end
   7'b000011: begin m = 31'bx; end
   7'b000001: begin m = 31'bx; end
+  7'b100100: begin m = 31'b0; end
+  7'b011011: begin m = 31'bx; end
+  7'b001001: begin m = 31'bx; end 
   default: 
   begin 
     if(newexp<9'd0)

@@ -88,3 +88,7 @@ Detectb1 Det1f(X,N);            //Phát hi?n s? 1 ??u tiên, các s? 1 sau nó ??u t
 log2detc logaritcs2(N,T);
 add5b tru5b(5'd23,T,1'b1,Y[4:0],Co);
 endmodule
+© 2021 GitHub, Inc.
+Terms
+Privacy
+Se
