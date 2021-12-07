@@ -33,6 +33,15 @@ case({c1,c2,c3,c4})
   7'b100100: begin m = 31'bx; end
   7'b011011: begin m = 31'bx; end
   7'b001001: begin m = 31'bx; end 
+  7'b110010: begin m = 31'b0; end 
+  7'b010110: begin m = 31'bx; end
+  7'b110110: begin m = 31'bx; end 
+  7'b110000: begin m = 31'b0; end 
+  7'b000110: begin m = 31'bx; end
+  7'b110100: begin m = 31'bx; end 
+  7'b100010: begin m = 31'b0; end 
+  7'b010100: begin m = 31'bx; end
+  7'b100110: begin m = 31'bx; end   
   default: 
   begin 
     if(newexp<9'd0)

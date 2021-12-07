@@ -10,7 +10,7 @@ wire[23:0] dinhtri_o;
 wire[22:0] dinhtri_r;
 wire c1,c3,s1, cout;
 wire[1:0] c2,c4;
-sub_exp u1({1'b0,a[30:23]},{1'b0,b[30:23]},1'b0,exp_o,cout);
+sub_exp u1({1'b0,a[30:23]},{1'b0,b[30:23]},exp_o);
 divsignifician u2({1'b1,a[22:0]},{1'b1,b[22:0]},div_o);
 normalize u3(div_o,normalize_o);
 normalizeExpo u4(normalize_o,exp_o,newexp);
@@ -33,6 +33,9 @@ case({c1,c2,c3,c4})
   7'b100100: begin m = 31'bx; end
   7'b011011: begin m = 31'bx; end
   7'b001001: begin m = 31'bx; end 
+  7'b110010: begin m = 31'b0; end 
+  7'b010110: begin m = 31'bx; end
+  7'b110110: begin m = 31'bx; end 
   default: 
   begin 
     if(newexp<9'd0)
